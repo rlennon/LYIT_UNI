@@ -1,0 +1,3 @@
+Trouble Shooting:
+
+git remote show origin   -- show the correct remote setting to github project
