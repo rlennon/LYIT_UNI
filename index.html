@@ -1,0 +1,67 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="stylesheet" href="style1.css" />
+<title>Parallax Test</title>
+<script
+  src="https://code.jquery.com/jquery-1.7.2.min.js" integrity="sha256-R7aNzoy2gFrVs+pNJ6+SokH04ppcEqJ0yFLkNGoFALQ=" crossorigin="anonymous"></script>
+<script type="text/javascript" src="script.js"></script>
+
+</head>
+<body>
+	<div id="menu_container">
+		<div id="mobilenav" style="position:absolute;top:1em;right:1em;">
+			<img id="menubutton" src="images/menubutton.png" style="width:60px;height:60px"/>
+			<div id="mobilemenulinks" style="position:absolute;top:0;right:0;background-color:black">
+				<img id="menubuttonlinks" src="images/menubutton.png" style="width:60px;height:60px;position:absolute;right:0;top:0"/>
+				<ul id="mobilemenuul" style="position:relative;right:0;text-align:left;margin-top:60px;padding:1em">
+					<li class="active"><a href="#homediv">HOME </a></li>
+					<li><a href="#aboutdiv">PAGE1 </a></li>
+					<li><a href="#fooddiv">PAGE2 </a></li>
+					<li><a href="#bardiv">PAGE3 </a></li>
+					<li><a href="#craftbeerdiv">PAGE4 </a></li>
+					<li><a href="#gallery">PAGE5 </a></li>
+					<li><a href="#locationdiv">PAGE6 </a></li>
+				</ul>
+			</div>
+		</div>
+		<div id="menu_container_inner">
+			<nav>
+				<ul id="top-menu">
+					<li class="active"><a href="#homediv">HOME </a>|</li>
+					<li><a href="#aboutdiv">PAGE1 </a>|</li>
+					<li><a href="#fooddiv">PAGE2 </a>|</li>
+					<li><a href="#bardiv">PAGE3 </a>|</li>
+					<li><a href="#craftbeerdiv">PAGE4 </a>|</li>
+					<li><a href="#gallery">PAGE5 </a>|</li>
+					<li><a href="#locationdiv">PAGE6 </a></li>
+				</ul>
+			</nav>
+		</div>
+	</div>
+	
+	<div id="homediv" class="pageclass">
+	</div>
+
+	<div id="aboutdiv" class="pageclass">
+	</div>
+
+	<div id="fooddiv" class="pageclass bbox" >
+	</div>
+
+	<div id="bardiv" class="pageclass">
+	</div>
+
+	<div id="craftbeerdiv" class="pageclass">        
+	</div>
+
+	<div id="gallery" class="pageclass bbox" >
+	</div>
+
+	<div id="locationdiv" class="pageclass bbox" >
+	</div>
+
+</body>
+</html>
