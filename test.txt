@@ -1,3 +1,11 @@
 ########
 Test creating branch.
 Adding new file to cloned master.
+
+########################
+Commit for SPADVPLYIT-83
+This is an updateto footer CSS file for inconsistant colours on twitter, facebook logos.
+
+########################
+
+
