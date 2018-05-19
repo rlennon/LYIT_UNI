@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace LyitOnlinePayment
 {
-    class Program
+    class 98692921Test
     {
         static void Main(string[] args)
         {
