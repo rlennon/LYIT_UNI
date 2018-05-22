@@ -5,4 +5,9 @@ git remote show origin   -- show the correct remote setting to github project
 
 git remote -v   -- display origin remote settings
 
+####################################
 
+
+
+required repository.
+sudo wget --no-check-certificate -qO http://pkg.jenkins-ci.org/debian/jenkins-ci.org.key| sudo apt-key add –
