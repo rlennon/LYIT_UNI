@@ -11,9 +11,9 @@ namespace DIsplayList
     {
         static void Main(string[] args)
         {
-			// Developed by LYIT Student : L00131535 (Date: 16 May 2018)
-            List<Student> studentList = new List<Student>();
-            Student student1 = new Student();
+			// Developed by LYIT Student : L00131535 (Date: 16 May 2018) (Updated: 22 May 2018)
+            List<StudentList.Student> studentList = new List<StudentList.Student>();
+            StudentList.Student student1 = new StudentList.Student();
             student1.StudentName = "John Doe";
             student1.StudentNumber = "L000000001";
             student1.Course = "DevOps Software Engineering";
@@ -24,7 +24,7 @@ namespace DIsplayList
             student2.Course = "DevOps Software Engineering";
             studentList.Add(student2);
 
-            foreach (Student student in studentList)
+            foreach (StudentList.Student student in studentList)
             {
                 Console.WriteLine("Student Name  : " + student.StudentName);
                 Console.WriteLine("Student Number: " + student.StudentNumber);
@@ -35,10 +35,4 @@ namespace DIsplayList
         }
     }
 
-    public class Student
-    {
-        public string StudentName { get; set; }
-        public string StudentNumber { get; set; }
-        public string Course { get; set; }
-    }
 }
