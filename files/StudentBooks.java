@@ -4,6 +4,7 @@ public class StudentBooks {
 	{
 		gatherBookDetails();
 		generateBookSummary();
+		report(); 
 		
 	}
 }
